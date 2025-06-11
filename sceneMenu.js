@@ -6,7 +6,7 @@ var sceneMenu = new Phaser.Class({
     init: function () { },
     preload: function () {
         this.load.setBaseURL('asset/');
-        this.load.image("BGPlay", "images/BGplay.png");
+        this.load.image("BGPlay", "images/BGPlay.png");
         this.load.image("Title", "images/Title.png");
         this.load.image("ButtonPlay", "images/ButtonPlay.png");
         this.load.image("ButtonSoundOn", "images/ButtonSoundOn.png");
