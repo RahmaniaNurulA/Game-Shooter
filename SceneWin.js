@@ -1,7 +1,7 @@
-var sceneWin = new Phaser.Class({
+var SceneWin = new Phaser.Class({
     Extends: Phaser.Scene,
     initialize: function () {
-        Phaser.Scene.call(this, { key: 'sceneWin' });
+        Phaser.Scene.call(this, { key: 'SceneWin' });
     },
 
     // Tambahkan fungsi init untuk menerima data
