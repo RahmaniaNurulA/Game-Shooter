@@ -487,7 +487,7 @@ var scenePlay = new Phaser.Class({
                             duration: 500,
                             onComplete: () => {
                                 this.time.delayedCall(300, () => {
-                                    this.scene.start('sceneWin', { score: this.scoreValue });
+                                    this.scene.start('SceneWin', { score: this.scoreValue });
                                 });
                             }
                         });
